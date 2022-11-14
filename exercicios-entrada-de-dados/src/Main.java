@@ -6,7 +6,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int R;
 		
-		double area;
+		double area; // Ada
 		
 		System.out.println("Digite o raio: ");
 		R = sc.nextInt();
