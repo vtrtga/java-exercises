@@ -4,17 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int R;
 		
-		int A, B, soma;
+		double area;
 		
-		System.out.println("Digite um número: ");
-		A = sc.nextInt();
-		System.out.println("Digite outro número: ");
-		B = sc.nextInt();
+		System.out.println("Digite o raio: ");
+		R = sc.nextInt();
+		area = Math.pow(R, 2) * 3.14159;
 		
-		soma = A + B;
-		
-		System.out.println("SOMA = " + soma);
+		System.out.println("AREA = " + area);
 	}
 
 }
